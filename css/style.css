@@ -12,162 +12,7 @@ body{
   margin: 0;
 }
 
-main figure{
-  position: relative;
-  background-image: url("../img/mapas1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  height: 550px;
-}
 
-figcaption{
-  padding: 25px;
-  position: absolute;
-  height: 200px;
-  width: 70%;
-  margin: 0 15%;
-  bottom: -100px;
-  background-color: #f3eeeb;
-  border-radius: 5px 5px 20px 20px;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
-
-figcaption h3{
-  margin: 0;
-  text-align: center;
-  font-size: 40px;
-}
-
-figcaption h4{
-  margin: 15px;
-  text-align: center;
-  font-size: 30px;
-}
-
-section{
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  padding: 160px 9% 0 9%;
-  background-color: #1f282d;
-  height: 590px;
-}
-
-.nomes{
-  border-radius: 5px;
-  width: 45%;
-  background-color: #f3eeeb;
-  padding-top: 26px;
-  margin-right: 5%;
-  height: 270px;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
-.nomes h4{
-  margin: 0;
-  text-align: center;
-  font-size: 30px;
-}
-.nomes input{
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  width: 93%;
-  margin: 3%;
-  padding: 4%;
-  background-color: #1f282d;
-  color: #f3eeeb;
-}
-
-.pets{
-  border-radius: 5px;
-  width: 45%;
-  margin-left: 5%;
-  background-color: #f3eeeb;
-  /* padding-top: 26px; */
-  padding: 26px 4% 4% 4%;
-  height: 270px;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
-.pets h4{
-  margin: 0;
-  padding-bottom: 3%;
-  text-align: center;
-  font-size: 30px;
-}
-.pets select{
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  /* text-align: center; */
-  padding: 4%;
-  /* height: 50px; */
-  width: 100%;
-  background-color: #1f282d;
-  color: #f3eeeb;
-}
-.pets div{
-  font-size: 25px;
-  margin: 20px;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.mapa{
-  position: relative;
-  z-index: 1;
-  background-color: #f3eeeb;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.726),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
-.mapa h3{
-  margin: 0;
-  padding: 26px 0;
-  text-align: center;
-  font-size: 25px;
-  
-}
-iframe{
-  width: 100%;
-  height: 330px;
-  margin-bottom: 50px;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.178),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
-
-.medicos{
-  position: relative;
-  background-image: url("../img/madeirona1.jpg");
-  /* filter: blur(1.2px); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  height: 650px;
-}
-.medicos h4{
-  position: absolute;
-  z-index: 1;
-  top: -25px;
-  left: 33%;
-  font-size: 25px;
-  padding: 15px 0;
-  border-radius: 6px 6px 16px 16px;
-  width: 30%;
-  text-align: center;
-  margin: 0;
-  color: #f3eeeb;
-  background-color: #019875;
-  
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
-     0 3px 10px 0 rgba(0, 0, 0, 0.075);
-}
 @media only screen and (max-width: 550px){
 
   body{
@@ -221,6 +66,220 @@ iframe{
   }
 
 
+
+  main figure{
+    position: relative;
+    background-image: url("../img/mapas1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 550px;
+  }
+  
+  figcaption{
+    padding: 10px;
+    position: absolute;
+    /* height: 160px; */
+    width: 70%;
+    margin: 0 15%;
+    bottom: -60px;
+    background-color: #f3eeeb;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  figcaption h3{
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  figcaption h4{
+    display: none;
+    margin: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  section{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+    padding: 160px 9% 0 9%;
+    background-color: #1f282d;
+    height: 760px;
+  }
+  
+  .nomes{
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f3eeeb;
+    padding-top: 26px;
+    /* margin-right: 5%; */
+    height: 270px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .nomes h4{
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  .nomes input{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 93%;
+    margin: 3%;
+    height: 70px;
+    padding: 4%;
+    background-color: #1f282d;
+    color: #f3eeeb;
+  }
+  
+  .pets{
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: #f3eeeb;
+    padding: 26px 4% 4% 4%;
+    height: 270px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .pets h4{
+    margin: 0;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .pets select{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 4%;
+    /* height: 50px; */
+    width: 100%;
+    background-color: #1f282d;
+    color: #f3eeeb;
+  }
+  .pets div{
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pets div p{
+    padding: 6px;
+    margin: 3px;
+  }
+  
+  .mapa{
+    position: relative;
+    z-index: 1;
+    background-color: #f3eeeb;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.726),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .mapa h3{
+    margin: 0;
+    padding: 26px 0;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  iframe{
+    width: 100%;
+    height: 460px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.178),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  .medicos{
+    position: relative;
+    background-image: url("../img/madeirona1.jpg");
+    /* filter: blur(1.2px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 1250px;
+  }
+  .medicos h4{
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+    left: 10%;
+    font-size: 25px;
+    padding: 15px 0;
+    border-radius: 6px 6px 16px 16px;
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    color: #f3eeeb;
+    background-color: #019875;
+    
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  .medicos-div{
+    padding: 50px 9% 2% 9%;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    height: 650px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  
+  .medico{
+    border-radius: 9px;
+    margin: 35px 0;
+    width: 100%;
+    padding: 2%;
+    /* height: 200px; */
+    background-color: #f3eeeb;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .medico p{
+    font-size: 16px;
+  }
+  .medico a{
+    float: right;
+    font-size: 18px;
+    /* margin: 15px 20px; */
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #019875;
+    color: #f3eeeb;
+    padding: 8px;
+    letter-spacing: 2px;
+  
+  }
+  .medico .user{
+    height: 80px;
+    margin-right: 15px;
+    float: left;
+  }
+  .medico a img{
+    height: 20px;
+  }
+  .medico h5{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
 
 
   footer{
@@ -297,6 +356,218 @@ iframe{
   }
 
 
+  
+main figure{
+  position: relative;
+  background-image: url("../img/mapas1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 550px;
+}
+
+figcaption{
+  padding: 25px;
+  position: absolute;
+  height: 200px;
+  width: 70%;
+  margin: 0 15%;
+  bottom: -100px;
+  background-color: #f3eeeb;
+  border-radius: 5px 5px 20px 20px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+
+figcaption h3{
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+figcaption h4{
+  margin: 15px;
+  text-align: center;
+  font-size: 30px;
+}
+
+section{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 160px 9% 0 9%;
+  background-color: #1f282d;
+  height: 590px;
+}
+
+.nomes{
+  border-radius: 5px;
+  width: 45%;
+  background-color: #f3eeeb;
+  padding-top: 26px;
+  margin-right: 5%;
+  height: 270px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+.nomes h4{
+  margin: 0 0 15px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.nomes input{
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 93%;
+  margin: 3%;
+  height: 70px;
+  padding: 4%;
+  background-color: #1f282d;
+  color: #f3eeeb;
+}
+
+.pets{
+  border-radius: 5px;
+  width: 45%;
+  margin-left: 5%;
+  background-color: #f3eeeb;
+  /* padding-top: 26px; */
+  padding: 26px 4% 4% 4%;
+  height: 270px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+.pets h4{
+  margin: 0;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 30px;
+}
+.pets select{
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  /* text-align: center; */
+  padding: 4%;
+  /* height: 50px; */
+  width: 100%;
+  background-color: #1f282d;
+  color: #f3eeeb;
+}
+.pets div{
+  font-size: 25px;
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.pets div p{
+  padding: 6px;
+  margin: 3px;
+}
+
+.mapa{
+  position: relative;
+  z-index: 1;
+  background-color: #f3eeeb;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.726),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+.mapa h3{
+  margin: 0;
+  padding: 26px 0;
+  text-align: center;
+  font-size: 25px;
+  
+}
+iframe{
+  width: 100%;
+  height: 330px;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.178),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+
+.medicos{
+  position: relative;
+  background-image: url("../img/madeirona1.jpg");
+  /* filter: blur(1.2px); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 820px;
+}
+.medicos h4{
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  left: 35%;
+  font-size: 25px;
+  padding: 15px 0;
+  border-radius: 6px 6px 16px 16px;
+  width: 30%;
+  text-align: center;
+  margin: 0;
+  color: #f3eeeb;
+  background-color: #019875;
+  
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+
+.medicos-div{
+  padding: 110px 9% 2% 9%;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  height: 650px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.medico{
+  border-radius: 9px;
+  margin: 15px 0;
+  width: 46%;
+  padding: 2%;
+  /* height: 200px; */
+  background-color: #f3eeeb;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+     0 3px 10px 0 rgba(0, 0, 0, 0.075);
+}
+.medico p{
+  font-size: 16px;
+}
+.medico a{
+  float: right;
+  font-size: 18px;
+  /* margin: 15px 20px; */
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #019875;
+  color: #f3eeeb;
+  padding: 8px;
+  letter-spacing: 2px;
+
+}
+.medico .user{
+  height: 110px;
+  margin-right: 15px;
+  float: left;
+}
+.medico a img{
+  height: 20px;
+}
+.medico h5{
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
 
   
   footer{
@@ -368,6 +639,209 @@ iframe{
   }
 
 
+  main figure{
+    position: relative;
+    background-image: url("../img/mapas1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 550px;
+  }
+  
+  figcaption{
+    padding: 25px;
+    position: absolute;
+    height: 200px;
+    width: 70%;
+    margin: 0 15%;
+    bottom: -100px;
+    background-color: #f3eeeb;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  figcaption h3{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  figcaption h4{
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  section{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 160px 9% 0 9%;
+    background-color: #1f282d;
+    height: 590px;
+  }
+  
+  .nomes{
+    border-radius: 5px;
+    width: 45%;
+    background-color: #f3eeeb;
+    padding-top: 26px;
+    margin-right: 5%;
+    height: 270px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .nomes h4{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+  .nomes input{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 93%;
+    margin: 3%;
+    padding: 4%;
+    background-color: #1f282d;
+    color: #f3eeeb;
+  }
+  
+  .pets{
+    border-radius: 5px;
+    width: 45%;
+    margin-left: 5%;
+    background-color: #f3eeeb;
+    /* padding-top: 26px; */
+    padding: 26px 4% 4% 4%;
+    height: 270px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.363),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .pets h4{
+    margin: 0;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .pets select{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 4%;
+    /* height: 50px; */
+    width: 100%;
+    background-color: #1f282d;
+    color: #f3eeeb;
+  }
+  .pets div{
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mapa{
+    position: relative;
+    z-index: 1;
+    background-color: #f3eeeb;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.726),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .mapa h3{
+    margin: 0;
+    padding: 26px 0;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  iframe{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.178),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  .medicos{
+    position: relative;
+    background-image: url("../img/madeirona1.jpg");
+    /* filter: blur(1.2px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 650px;
+  }
+  .medicos h4{
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+    left: 35%;
+    font-size: 25px;
+    padding: 15px 0;
+    border-radius: 6px 6px 16px 16px;
+    width: 30%;
+    text-align: center;
+    margin: 0;
+    color: #f3eeeb;
+    background-color: #019875;
+    
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  
+  .medicos-div{
+    padding: 8% 9% 2% 9%;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  
+  .medico{
+    border-radius: 9px;
+    margin: 0;
+    width: 46%;
+    padding: 2%;
+    /* height: 200px; */
+    background-color: #f3eeeb;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.514),
+       0 3px 10px 0 rgba(0, 0, 0, 0.075);
+  }
+  .medico p{
+    font-size: 18px;
+  }
+  .medico a{
+    float: right;
+    font-size: 18px;
+    /* margin: 15px 20px; */
+    text-decoration: none;
+    background-color: #019875;
+    color: #f3eeeb;
+    padding: 8px;
+    letter-spacing: 2px;
+  
+  }
+  .medico .user{
+    height: 110px;
+    margin-right: 15px;
+    float: left;
+  }
+  .medico a img{
+    height: 20px;
+  }
+  .medico h5{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+  }
 
   
   footer{
